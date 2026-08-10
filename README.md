@@ -18,3 +18,13 @@ Dashboard; pacientes; psicólogos; funcionários; perfis e permissões; especial
 ## Demonstração
 
 Acesse a aplicação: [Clínica Psi](https://andrelbribeiro.github.io/clinica-psi/)
+## Login de demonstração
+
+| Perfil | Usuário | Senha |
+|---|---|---|
+| Administrador | `admin` | `Admin@123` |
+| Médico | `medico` | `Medico@123` |
+| Funcionário | `funcionario` | `Func@123` |
+| Cliente | `cliente` | `Cliente@123` |
+
+As contas, senhas, sessão e permissões são simuladas no navegador. Essa solução serve apenas para exercícios e não deve ser usada em produção. Veja os defeitos catalogados em [BUGS.md](BUGS.md).
