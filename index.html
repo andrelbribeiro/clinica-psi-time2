@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gestão de Clínica de Psicologia" />
+  <title>Clínica Psi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span>✦</span><div>CLINICA PSI</div></div>
+    <nav id="menu" aria-label="Menu principal"></nav>
+    <div class="sidebar-footer">Dados salvos neste navegador<br><button class="link-btn" id="seedBtn">Restaurar dados de exemplo</button></div>
+  </aside>
+  <main>
+    <header><button class="mobile-menu" id="mobileMenu">☰</button><div><p class="eyebrow" id="crumb">VISÃO GERAL</p><h1 id="pageTitle">Olá, equipe!</h1></div><div class="header-user"><span id="today"></span><div class="avatar">AS</div></div></header>
+    <section id="content" aria-live="polite"></section>
+  </main>
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
